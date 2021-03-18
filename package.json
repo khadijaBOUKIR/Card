@@ -1,0 +1,22 @@
+{
+  "name": "card-khadija",
+  "version": "1.0.0",
+  "description": "this card is available for any kind of card, and well styled",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khadijaBOUKIR/Card.git"
+  },
+  "keywords": [
+    "card"
+  ],
+  "author": "khadija Boukir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khadijaBOUKIR/Card/issues"
+  },
+  "homepage": "https://github.com/khadijaBOUKIR/Card#readme"
+}
