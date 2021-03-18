@@ -1,13 +1,14 @@
+*{
+    box-sizing: border-box;
+}
 html{
     height: 100%;
     width: 100%;
-
 }
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
     height: 100%;
     width: 100%;
     margin: 0;
@@ -19,12 +20,13 @@ body{
     width: 300px;
     height: 400px;
     border: 1px solid #0000001c;
-    box-shadow: -1px 2px 5px 0px rgba(168,151,168,1);       
+    box-shadow: -1px 2px 5px 0px rgba(168,151,168,1);
+    background-color: #ffffff99;
+    border-radius: 13px;
 }
 .media-card{
     width: 100%;
     height: 50%;
-   
 }
 .media{
     width: 100%;
@@ -33,52 +35,97 @@ body{
 .img-media{
     width: 100%;
     height: 100%;
+    border-radius: 13px 13px 0 0;
 }
-
 .content-card{
     width: 100%;
     height: 50%;
-  
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
 }
 .content-header{
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 40%;
+    align-items: center;
+    position: relative
+    ;
 }
 .avatar-card{
-    flex: 1;
-    height: 100%;
+    
+    height: 70px;
     border-radius: 50%;
+    width: 70px;
 }
 .avatar{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    border: 2px double #00ffb8ad;
+
 }
 .info-card{
     flex: 3;
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 9px;
+    color: black;
 }
+
 .info-status{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    position: absolute;
+    top: 37px;
+    left: 58px;
+    width: 14px !important;
+    height: 14px !important;
+    background-color: green !important;
 }
 .actions{
     flex: 1;
     height: 100%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.action{
+    display: flex;
+    border-radius: 10px;
+    background-color: #0dccfcbf;
+    width: 7px;
+    height: 7px;
+    justify-content: space-between;
+    margin: 2px;
 }
 .title-card{
+    font-size: 22px;
     width: 100%;
     height: 20%;
+    font-family: system-ui;
+    color: #00beff;
+    padding-top: 16px;
+    padding-left: 5px;
 }
 .desc-card{
     width: 100%;
-    height: 40%;
+    height: 100%;
     overflow: hidden;
+    padding-top: 12px;
+    padding-left: 5px;
+    padding-right: 6px;
+    color: black;
+    display: flex;
+    text-align: justify;
 }
